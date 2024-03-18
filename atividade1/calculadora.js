@@ -13,7 +13,8 @@ const multiplicacao = function (a, b) {
 };
 
 const divisao = function (a, b) {
-  return a / b;
+  if (b == 0) return "Indefinido";
+  else return a / b;
 };
 const potencia = function (a, b) {
   return a ** b;
